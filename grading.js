@@ -20,23 +20,6 @@ function gradingStudents(grades) {
         }
     })
     console.log(novasNotas)
-    // for(let nota of grades){
-    //     console.log(nota)
-    //     if(nota%5 < 3 && nota > 35){
-    //         console.log("pegou")
-    //         switch(nota%5){
-    //             case 2:
-    //                 console.log(nota + 2)
-                    
-    //             case 1:
-    //                 console.log(nota + 1)
-                    
-    //         } 
-    //     }
-    //     else{
-    //         return nota
-    //     }
-    // }
 }
 
 gradingStudents(students)
